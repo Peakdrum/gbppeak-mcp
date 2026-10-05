@@ -1,0 +1,38 @@
+{
+  "name": "gbppeak-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GBP Peak — Google Maps geo-grid rank scanning, local pack tracking and AI visibility data. Stdio bridge to the hosted GBP Peak MCP endpoint.",
+  "type": "module",
+  "bin": { "gbppeak-mcp": "dist/index.js" },
+  "main": "dist/index.js",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "local-seo",
+    "seo",
+    "google-maps",
+    "geo-grid",
+    "rank-tracking",
+    "gbp-peak"
+  ],
+  "author": "GBP Peak",
+  "license": "MIT",
+  "homepage": "https://gbppeak.com/api-docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peakdrum/gbppeak-mcp.git"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}
