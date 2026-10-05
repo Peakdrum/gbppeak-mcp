@@ -1,0 +1,6 @@
+{
+  "$schema": "https://glama.ai/api/mcp/v1/schema",
+  "maintainers": [
+    { "github": "Peakdrum" }
+  ]
+}
